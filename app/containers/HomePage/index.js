@@ -13,7 +13,6 @@ export function HomePage() {
   return (
     <article>
       <Helmet>
-        <title>Home Page</title>
         <meta name="description" content="Random Quote Machine" />
       </Helmet>
       <Quote />

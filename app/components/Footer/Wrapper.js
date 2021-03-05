@@ -4,7 +4,13 @@ const Wrapper = styled.footer`
   display: flex;
   justify-content: space-between;
   padding: 3em 0;
-  border-top: 1px solid #666;
+
+  > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+  }
 `;
 
 export default Wrapper;
